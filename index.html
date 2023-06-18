@@ -3,15 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yusuf Averoes Jibran - Happy Birthday</title>
+        <title>Yusuf Averroes Djibran - Happy Birthday</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kablammo&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="dist/style.css">
     </head>
 
     <body style="background-image: url('images/bg.jpg');">
         <div id="page" class="container relative pb-16">
+            <audio id="music" src="song/hbd.mp3" autoplay loop></audio>
             <div class="relative z-20">
                 <header class="relative">
                     <figure class="absolute top-0 left-0 right-0">
@@ -30,11 +32,11 @@
                         </p>
                         <figure class="relative mt-10 mx-auto overflow-hidden w-[180px] h-[180px] rounded-full">
                             <picture class="flex">
-                                <img class="block w-full h-full object-cover" src="images/yusuf.jpg" alt="Yusuf Averoes Jibran" loading="lazy">
+                                <img class="block w-full h-full object-cover" src="images/yusuf.jpg" alt="Yusuf Averroes Djibran" loading="lazy">
                             </picture>
                         </figure>
                         <h1 class="mt-4 text-xl font-semibold">
-                            Yusuf Averoes Jibran
+                            Yusuf Averroes Djibran
                         </h1>
                         <p class="mt-10">
                             Teruntuk,
@@ -44,7 +46,7 @@
                         </h2>
                     </div>
                 </header>
-                <section class="mt-10 p-4 bg-white rounded-lg shadow">
+                <section class="mt-10 p-4 bg-white rounded-lg shadow-lg">
                     <p class="mb-4">Hai Teman-Teman, aku mengundang kalian untuk datang ke acara ulang tahunku yang akan diadakan pada:</p>
                     <div class="text-[15px]">
                         <p class="flex mb-2">
@@ -73,7 +75,7 @@
                         </p>
                         <div class="mt-4">
                             <div class="relative pt-[75%] overflow-hidden rounded-lg">
-                                <iframe class="absolute inset-0 w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15863.093722445714!2d106.6657414!3d-6.2934794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef8900000001%3A0xaaf12b3e934186d9!2sKFC%20BSD%20Square!5e0!3m2!1sen!2sid!4v1687045184678!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe class="absolute inset-0 w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7930.7259425427055!2d106.6944937190077!3d-6.347023185496242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e538df03e535%3A0x8cad3ea6cb55b41f!2sKFC%20Puspitek%20Serpong!5e0!3m2!1sen!2sid!4v1687128462508!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
@@ -82,19 +84,46 @@
                     </p>
                 </section>
             </div>
-            <div class="mt-8 text-xs text-center text-white">
-                <div>
-                    <span class="inline-flex p-2 bg-[rgba(0,0,0,.5)] rounded-lg">
-                        <a href="https://www.freepik.com/free-vector/watercolor-birthday-background-with-empty-space_9173391.htm#query=pastel%20birthday&position=0&from_view=keyword&track=ais">Image by pikisuperstar</a> on Freepik
-                    </span>
-                </div>
-                <div class="mt-2">
-                    <span class="inline-flex p-2 bg-[rgba(0,0,0,.5)] rounded-lg">
-                        Music by <a href="https://pixabay.com/users/muzaproduction-24990238/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20919">Muzaproduction</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20919">Pixabay</a>
-                    </span>
+            <div id="page-info" class="hidden fixed top-0 left-0 right-0 bottom-10 z-40 bg-zinc-700 text-white">
+                <div class="pt-6 px-4 pb-16">
+                    <p class="mb-4 text-sm font-semibold">
+                        Assets contribution:
+                    </p>
+                    <div class="text-xs text-white">
+                        <div>
+                            <span class="block p-2 bg-[rgba(0,0,0,.5)] rounded-lg">
+                                Image elements from <a target="_blank" class="inline-block font-semibold underline" href="https://www.pngwing.com/en/search?q=birthday+elements">PNGWing</a>
+                            </span>
+                        </div>
+                        <div class="mt-2">
+                            <span class="block p-2 bg-[rgba(0,0,0,.5)] rounded-lg">
+                                <a target="_blank" class="inline-block font-semibold underline" href="https://www.freepik.com/free-vector/watercolor-birthday-background-with-empty-space_9173391.htm#query=pastel%20birthday&position=0&from_view=keyword&track=ais">Image by pikisuperstar</a> on Freepik
+                            </span>
+                        </div>
+                        <div class="mt-2">
+                            <span class="block p-2 bg-[rgba(0,0,0,.5)] rounded-lg">
+                                Music by
+                                <a target="_blank" class="inline-block font-semibold underline" href="https://pixabay.com/users/muzaproduction-24990238/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20919">Muzaproduction</a> from <a target="_blank" class="inline-block font-semibold underline" href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20919">Pixabay</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <iframe src="audio.html" frameborder="0" allow="autoplay"></iframe>
+            <nav class="fixed bottom-0 left-0 right-0 z-50 h-10 bg-zinc-800">
+                <ul class="tab flex h-10">
+                    <li class="tab-item w-1/2">
+                        <a href="#" class="flex h-full items-center justify-center text-white" id="tab-audio">
+                            <span class="material-symbols-outlined">volume_off</span>
+                        </a>
+                    </li>
+                    <li class="tab-item w-1/2">
+                        <a href="#" class="flex h-full items-center justify-center text-white" id="tab-info">
+                            <span class="material-symbols-outlined">info</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+        <script src="src/main.js"></script>
     </body>
 </html>

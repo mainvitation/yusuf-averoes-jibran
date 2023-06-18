@@ -16,3 +16,7 @@ body {
 .container {
     @apply mx-auto px-4 max-w-[480px];
 }
+
+.tab .tab-item a.active {
+    @apply text-sky-500;
+}
